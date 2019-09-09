@@ -1,0 +1,4 @@
+/* Componentes */
+.stories-image {
+  @apply rounded-full border mb-2 xs:w-16 xs:h-16 sm:w-16 sm:h-16 md:w-24 md:h-24;
+}

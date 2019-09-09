@@ -1,0 +1,49 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+.stories-image {
+  @apply rounded-full border mb-2;
+}
+
+@screen xs {
+  .stories-image {
+    @apply w-16 h-16;
+  }
+}
+
+@screen sm {
+  .stories-image {
+    @apply w-16 h-16;
+  }
+}
+
+@screen md {
+  .stories-image {
+    @apply w-24 h-24;
+  }
+}
+
+/* Search input */
+.search-input-width {
+  width: 215px;
+}
+
+@variants focus {
+  .search-input-width {
+    text-align: left;
+  }
+}
+
+@variants placeholder {
+  .search-input-width {
+    text-align: center;
+  }
+}
+
+/* Photos */
+.photos-container {
+  max-width: 975px;
+}
