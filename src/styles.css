@@ -10719,6 +10719,15 @@ video {
   z-index: auto;
 }
 
+.header-icons {
+  background-image: url('./assets/images/instagram_icons.png');
+  height: 24px;
+  width: 24px;
+  background-repeat: no-repeat;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
 .stories-image {
   border-radius: 9999px;
   border-width: 1px;
@@ -10750,6 +10759,9 @@ video {
 
 .search-input-width {
   width: 215px;
+  border-width: 1px;
+  border-radius: 0.25rem;
+  background-color: #f7fafc;
 }
 
 .search-input-width {

@@ -1,5 +1,5 @@
 <header
-  (window:scroll)="doSomethingOnWindowsScroll($event)"
+  (window:scroll)="stickOnScroll($event)"
   class="sticky top-0 bg-white"
 >
   <div #container class="container mx-auto flex h-20">
@@ -29,7 +29,7 @@
       class="w-1/3 xs:hidden sm:hidden md:hidden lg:flex justify-center items-center px-24"
     >
       <input
-        class="search-input-width focus:search-input-width placeholder:search-input-width border rounded bg-gray-100"
+        class="search-input-width focus:search-input-width placeholder:search-input-width"
         type="text"
         name="search"
         id="search"
@@ -43,19 +43,19 @@
         class="flex xs:justify-end sm:justify-end md:justify-center xl:justify-center items-center mt-1 h-20"
       >
         <div
-          class="bg-no-repeat mx-4"
+          class="header-icons"
           id="atgram-explore"
-          style="background-image: url('./assets/images/instagram_icons.png'); background-position: -257px -200px; height: 24px; width: 24px;"
+          style="background-position: -257px -200px;"
         ></div>
         <div
-          class="bg-no-repeat mx-4"
+          class="header-icons"
           id="atgram-heart"
-          style="background-image: url('./assets/images/instagram_icons.png'); background-position: -26px -300px; height: 24px; width: 24px;"
+          style="background-position: -26px -300px;"
         ></div>
         <div
-          class="bg-no-repeat mx-4"
+          class="header-icons"
           id="atgram-profile"
-          style="background-image: url('./assets/images/instagram_icons.png'); background-position: -234px -274px; height: 24px; width: 24px;"
+          style="background-position: -234px -274px;"
         ></div>
       </div>
     </div>

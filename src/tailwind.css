@@ -4,6 +4,13 @@
 
 @tailwind utilities;
 
+.header-icons {
+  background-image: url('./assets/images/instagram_icons.png'); 
+  height: 24px; 
+  width: 24px;
+  @apply bg-no-repeat mx-4;
+}
+
 .stories-image {
   @apply rounded-full border mb-2;
 }
@@ -29,6 +36,7 @@
 /* Search input */
 .search-input-width {
   width: 215px;
+  @apply border rounded bg-gray-100;
 }
 
 @variants focus {
